@@ -9,4 +9,4 @@ spec:
     - name: my-first-pod
       Image: 
       ports: 80
-        - targetPort: 80
+        - targetPort:  80
