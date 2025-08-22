@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
+  lables:
+    app: myapp
+spec:
+  containers:
+    - name: my-first-pod
+      Image: 
+      ports: 80
+        - targetPort: 80
